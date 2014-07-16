@@ -47,7 +47,7 @@ var onEndListener = function() {
   console.log('@@@@@@@@@@@@ client end: ', arguments);
 }
 
-var onCloseListener = function() {
+var onCloseListener = function(hasError) {
   console.log('@@@@@@@@@@@@ client close: ', arguments);
 }
 
