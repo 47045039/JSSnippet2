@@ -1,0 +1,1 @@
+NODE_DEBUG=net1 node server.js
